@@ -1,11 +1,11 @@
 import random
 
-def questionAnswer():
+def greeting():
     name = input("What's your name?")
     print("Nice to meet you " + name + "!" + " Welcome to the Magic 8 Ball.")
 
 
-questionAnswer()
+greeting()
 while True:
     questionR = input("What is your question?")
     if questionR == "quit":
