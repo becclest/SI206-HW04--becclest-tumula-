@@ -2,10 +2,15 @@ import random
 
 def questionAnswer():
     name = input("What's your name?")
-    print("Nice to meet you " + name + "!")
-<<<<<<< HEAD
+    print("Nice to meet you " + name + "!" + " Welcome to the Magic 8 Ball.")
+
+
+questionAnswer()
+while True:
     questionR = input("What is your question?")
-    if questionR [-1] != "?":
+    if questionR == "quit":
+        break
+    elif questionR [-1] != "?":
         print('I\'m sorry, I can only answer questions.')
     else:
         possibleAnswers = ['It is certain',
@@ -29,14 +34,3 @@ def questionAnswer():
                        'Outlook not so good',
                        'Very doubtful']
         print(random.choice(possibleAnswers))
-
-questionAnswer()
-=======
-    questionR = input("What do you want to learn?")
-    print("Well, " + name + "we will try to figure out the answer together!")
-
-
-def checkQuestion(arg):
-    if input [-1] != "?":
-        print(“I’m sorry, I can only answer questions.”)
->>>>>>> check_question
