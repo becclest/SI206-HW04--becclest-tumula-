@@ -3,6 +3,7 @@ import random
 def questionAnswer():
     name = input("What's your name?")
     print("Nice to meet you " + name + "!")
+<<<<<<< HEAD
     questionR = input("What is your question?")
     if questionR [-1] != "?":
         print('I\'m sorry, I can only answer questions.')
@@ -30,3 +31,12 @@ def questionAnswer():
         print(random.choice(possibleAnswers))
 
 questionAnswer()
+=======
+    questionR = input("What do you want to learn?")
+    print("Well, " + name + "we will try to figure out the answer together!")
+
+
+def checkQuestion(arg):
+    if input [-1] != "?":
+        print(“I’m sorry, I can only answer questions.”)
+>>>>>>> check_question
